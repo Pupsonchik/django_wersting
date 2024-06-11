@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    transition: 0.5s;
+    padding: 0;
+    text-decoration: none;
+    box-shadow: border-box;
+    display: grid;
+    font-family: 'Courier New', Courier, monospace;
+}
+.navbar, .search-item {
+    grid-template-columns: repeat(4, 1fr);
+}
+.btn-pro {
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-family: 'Courier New', Courier, monospace;
+    border: none;
+    background: linear-gradient(rgb(0, 149, 255), rgb(25, 159, 216));
+    color: snow;
+}
+a {
+    color: black;
+}
+input {
+    border-radius: 5px;
+    padding: 10px 20px;
+    border-color: rgb(0, 149, 255);
+}
